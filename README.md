@@ -2,6 +2,7 @@
 事先准备：
 1.安装maven
 下载地址：http://maven.apache.org/download.cgi
+
 第二步，解压文件包
 
  
@@ -45,7 +46,7 @@ Redis-x64-3.2.100.msi是在windows下，最简单的安装文件，方便，直�
 Redis-x64-3.2.100.zip是需要解压安装的，接下来讨论的是这种。
 Source code (zip) 源码的zip压缩版
 Source code (tar.gz) 源码的tar.gz压缩版
-图片1
+![Image](https://github.com/StephenChio/img-folder/blob/master/564792-20170302141835970-345229799.png)
 
 二：安装
 
