@@ -2,7 +2,7 @@
 事先准备：
 1.安装maven
 下载地址：http://maven.apache.org/download.cgi
-
+![Image](https://github.com/StephenChio/img-folder/blob/master/20180125104433174.png)
 第二步，解压文件包
 
  
@@ -11,24 +11,24 @@
 
  2.apache-maven-3.5.2-src.zip     maven源码包。
 
- 
+
 
 第三步，配置环境变量，类似jdk环境配置
 
 1.创建M2_HOME环境变量，指向maven的安装目录。
 
- 
+![Image](https://github.com/StephenChio/img-folder/blob/master/20180125103247489.png)
 
 
 
 2.并将%M2_HOME%\bin追加到PATH路径中。
 
- 
+ ![Image](https://github.com/StephenChio/img-folder/blob/master/20180125103448461.png)
 
 
 
 3.调试是否安装成功，在cmd中输入 mvn -version
-
+ ![Image](https://github.com/StephenChio/img-folder/blob/master/20180125103643968.png)
 
 2.安装redis
 下载地址：
@@ -54,13 +54,12 @@ Source code (tar.gz) 源码的tar.gz压缩版
 
 将下载的Redis-x64-3.2.100.zip 解压到某个地址。
 解压之后存放的地址
-图片2
-启动命令
+![Image](https://github.com/StephenChio/img-folder/blob/master/564792-20170302141837188-1772743982.png)
 
 通过cmd指定到该redis目录。
 使用命令：redis-server.exe 启动服务
 启动服务
-图片3
+![Image](https://github.com/StephenChio/img-folder/blob/master/564792-20170302141837907-542406591.png)
 出现这种效果，表明启动服务成功。
 
 3.sql文件和图片资源
