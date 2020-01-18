@@ -83,6 +83,9 @@ Source code (tar.gz) 源码的tar.gz压缩版
 ![Image](https://github.com/StephenChio/img-folder/blob/master/2.png)
 把数据库配置修改成自己本地数据库的配置 数据库和文件资源导入方法看第四点。
 
+4.导入pinyin4j-2.5.0.jar
+在百度网盘下载pinyin4j-2.5.0.jar包，在OneTech_common/src/main文件夹下创建一个resources文件夹，在resources文件夹下创建一个lib文件夹，把
+pinyin4j-2.5.0.jar放到lib文件夹内即可。
 
 
 四.sql文件和图片资源
