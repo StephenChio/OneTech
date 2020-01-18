@@ -66,23 +66,30 @@ Source code (tar.gz) 源码的tar.gz压缩版
 
 
 
-三.sql文件和图片资源
+三.注意事项
+1.修改本地日志地址
+文件地址 OneTech_web⁩/src⁩/⁨main/⁨resources⁩/⁨config⁩/logging-config-dev.xml
+![Image](https://github.com/StephenChio/img-folder/blob/master/1.png)
+把value替换成自己电脑的一个文件夹
+
+
+2.修改本地资源地址
+文件地址 OneTech_web⁩/src⁩/⁨main/⁨resources⁩/⁨config⁩/application-dev.properties
+![Image](https://github.com/StephenChio/img-folder/blob/master/2.png)
+把localUrl替换成自己电脑的一个文件夹
+
+3.修改本地mysql数据库配置
+文件地址 OneTech_web⁩/src⁩/⁨main/⁨resources⁩/⁨config⁩/application-dev.properties
+![Image](https://github.com/StephenChio/img-folder/blob/master/2.png)
+把数据库配置修改成自己本地数据库的配置 数据库和文件资源导入方法看第四点。
+
+
+
+四.sql文件和图片资源
 链接: https://pan.baidu.com/s/1-F6Cd6cao0AAcjhrK5MYlg 提取码: qnz9
 数据库使用mysql 创建一个名字为App的数据库，把sql文件导入App数据库
 图片资源解压到编译后的OneTech_web/target/classes 文件夹内
 
-
-
-四.注意事项
-1.修改本地日志地址
-![Image](https://github.com/StephenChio/img-folder/blob/master/1.png)
-
-2.修改本地资源地址
-![Image](https://github.com/StephenChio/img-folder/blob/master/2.png)
-
-3.修改本地mysql数据库配置
-![Image](https://github.com/StephenChio/img-folder/blob/master/2.png)
-
-
+运行方法1.点击clone下载解压，使用idea，open打开项目，导入为maven项目，等待下载依赖完成点击运行即可。
 
 前端项目OneTechApp地址：https://github.com/StephenChio/OneTechApp
