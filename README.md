@@ -80,7 +80,7 @@ Source code (tar.gz) 源码的tar.gz压缩版
 3.修改本地mysql数据库配置
 
 文件地址 OneTech_web⁩/src⁩/⁨main/⁨resources⁩/⁨config⁩/application-dev.properties
-![Image](https://github.com/StephenChio/img-folder/blob/master/2.png)
+![Image](https://github.com/StephenChio/img-folder/blob/master/3.png)
 把数据库配置修改成自己本地数据库的配置 数据库和文件资源导入方法看第四点。
 
 4.导入pinyin4j-2.5.0.jar
@@ -100,5 +100,9 @@ pinyin4j-2.5.0.jar放到lib文件夹内即可。
 图片资源解压到编译后的OneTech_web/target/classes 文件夹内
 
 运行方法1.点击clone下载解压，使用idea，open打开项目，导入为maven项目，等待下载依赖完成点击运行即可。
+
+
+
+五.此项目为前后端分离项目
 
 前端项目OneTechApp地址：https://github.com/StephenChio/OneTechApp
