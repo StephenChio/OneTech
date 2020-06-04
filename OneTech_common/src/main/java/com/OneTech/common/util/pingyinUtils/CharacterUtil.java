@@ -1,6 +1,7 @@
 package com.OneTech.common.util.pingyinUtils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
 import net.sourceforge.pinyin4j.format.HanyuPinyinToneType;

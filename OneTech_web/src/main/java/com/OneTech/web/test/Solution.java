@@ -565,44 +565,44 @@ public class Solution {
     }
 
 
-    public static int maxPoints(Point[] points) {
-        if (points.length <= 2) return points.length;
-        int num = 0;
-        for (int i = 0; i < points.length-1; i++) {
-            for (int j = i + 1; j < points.length; j++) {
-                num = Math.max(num, findPoint(points, i, j));
-            }
-        }
-        return num+2;
-    }
+//    public static int maxPoints(Point[] points) {
+//        if (points.length <= 2) return points.length;
+//        int num = 0;
+//        for (int i = 0; i < points.length-1; i++) {
+//            for (int j = i + 1; j < points.length; j++) {
+//                num = Math.max(num, findPoint(points, i, j));
+//            }
+//        }
+//        return num+2;
+//    }
 
-    public static int findPoint(Point[] points, int point1, int point2) {
-        int num = 0;
-        for (int i = 0; i < points.length; i++) {
-                if (i != point1 && i != point2) {
-                    if (judge(points[point1], points[i], points[point2]))
-                        num = num + 1;
-                }
-            }
-        return num;
-    }
+//    public static int findPoint(Point[] points, int point1, int point2) {
+//        int num = 0;
+//        for (int i = 0; i < points.length; i++) {
+//                if (i != point1 && i != point2) {
+//                    if (judge(points[point1], points[i], points[point2]))
+//                        num = num + 1;
+//                }
+//            }
+//        return num;
+//    }
 
-    public static boolean judge(Point point1, Point point2, Point point3) {
-        double A = distance(point1,point2);
-        double B = distance(point2,point3);
-        double C = distance(point1,point3);
-        double p=0.5*(A+B+C);
-        if (p*(p-A)*(p-B)*(p-C)>0){
-            return false;
-        } else {
-            return true;
-        }
-    }
-    public static double distance(Point point1, Point point2) {
-        int x1 = point1.x - point2.x;
-        int y1 = point1.y - point2.y;
-        return Math.sqrt(x1 * x1 + y1 * y1);
-    }
+//    public static boolean judge(Point point1, Point point2, Point point3) {
+//        double A = distance(point1,point2);
+//        double B = distance(point2,point3);
+//        double C = distance(point1,point3);
+//        double p=0.5*(A+B+C);
+//        if (p*(p-A)*(p-B)*(p-C)>0){
+//            return false;
+//        } else {
+//            return true;
+//        }
+//    }
+//    public static double distance(Point point1, Point point2) {
+//        int x1 = point1.x - point2.x;
+//        int y1 = point1.y - point2.y;
+//        return Math.sqrt(x1 * x1 + y1 * y1);
+//    }
 
 
     public ListNode sortList(ListNode head) {
@@ -631,21 +631,21 @@ public class Solution {
         char[] array2 = {'A', 'B', 'C', 'E', 'H', 'J', 'I', 'G', 'S', 'F', 'C', 'S', 'L', 'O', 'P', 'Q', 'A', 'D', 'E', 'E', 'M', 'N', 'O', 'E', 'A', 'D', 'I', 'D', 'E', 'J', 'F', 'M', 'V', 'C', 'E', 'I', 'F', 'G', 'G', 'S'};
         char[] chars = {'S', 'L', 'H', 'E', 'C', 'C', 'E', 'I', 'D', 'E', 'J', 'F', 'G', 'G', 'F', 'I', 'E'};
         String str = "zabbbbbac";
-        int[][] matrix = {{1}};
-        Point point1 = new Point(84, 250);
-        Point point2 = new Point(0, 0);
-        Point point3 = new Point(1, 0);
-        Point[] points = new Point[9];
-        points[0] = point1;
-        points[1] = point2;
-        points[2] = point3;
-        points[3] = new Point(0,-70);
-        points[4] = new Point(0,-70);
-        points[5] = new Point(1,-1);
-        points[6] = new Point(21,10);
-        points[7] = new Point(42,90);
-        points[8] = new Point(-42,-230);
-
-        System.out.println(Solution.maxPoints(points));
+//        int[][] matrix = {{1}};
+//        Point point1 = new Point(84, 250);
+//        Point point2 = new Point(0, 0);
+//        Point point3 = new Point(1, 0);
+//        Point[] points = new Point[9];
+//        points[0] = point1;
+//        points[1] = point2;
+//        points[2] = point3;
+//        points[3] = new Point(0,-70);
+//        points[4] = new Point(0,-70);
+//        points[5] = new Point(1,-1);
+//        points[6] = new Point(21,10);
+//        points[7] = new Point(42,90);
+//        points[8] = new Point(-42,-230);
+//
+//        System.out.println(Solution.maxPoints(points));
     }
 }
